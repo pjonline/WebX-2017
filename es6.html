@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    <style type="text/css">
+        button {
+            width:120px;
+            height:30px;
+            display:block;
+        }
+    </style>
+</head>
+<body>
+<h3>Section 1</h3>
+<div id="section-1"></div>
+<h3>Section 2</h3>
+<div id="section-2"></div>
+<script type="text/javascript">
+    const boxes = 10;
+    function letScope() {
+        let a = 10;
+        if (a > 0) {
+            let a = 5;
+            console.log(a)
+        }
+        console.log(a);
+    }
+    function letScopeTimeout() {
+        for (let a =1; a<=boxes; a++) {
+            setTimeout(function() {
+                console.log(`The value of a is ${a} of ${boxes}`);
+            }, 1000);
+        }
+    }
+    //letScopeTimeout();
+    // function letScopeButton(x='8', section='1') {
+
+    //     for (let a=1; a<=x; a++) {
+    //         var button = document.createElement('button');
+    //         button.innerHTML = a;
+    //         button.onclick = function() {
+    //             console.log(a);
+    //         }
+    //         document.getElementById('section-'+section).appendChild(button)
+
+    //     }
+
+    // }
+    function letScopeButton(x=5, section='1') {
+
+        for (let a=1; a<=x; a++) {
+            var button = document.createElement('button');
+            button.innerHTML = a;
+            button.onclick = function() {
+                console.log(a);
+            }
+            document.getElementById('section-'+section).appendChild(button)
+
+        }
+
+    }
+    // var sections = [[2,1], [5,2]];
+    // for (var a=0; a<sections.length; a++) {
+    //     letScopeButton(sections[a][0], sections[a][1]);
+    // }
+    //letScopeButton(2);
+    //letScopeTimeout();
+    class Calculate {
+        constructor(x,y) {
+            this.valueA = x;
+            this.valueB = y;
+        }
+        showValues() {
+            console.log(`ValueA is ${this.valueA}`);
+            console.log(`ValueB is ${this.valueB}`);
+        }
+    }
+    var calculation1 = new Calculate(3,5);
+    calculation1.showValues();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+Home
+
+WebX 14th March 2017
+Knowledge, Toolkit & Work Ethic of a Successful Web Developer in the XXI Century
+
+The way we build the web is changing. Sites need to be fast, responsive, secure. Libraries and standards proliferate faster than our education can possibly keep up. The future of the web is exciting, but where do we go to learn about the latest thinking on building great sites?
+
+Join us and connect with our community, get inspired, motivated & learn from from awesome speakers - what they learned & how they found their passion & turned it into their career.
+
+WebX is a one-day, curated and handcrafted JavaScript event for the community of the University of Gloucestershire. Join us for a day of fun and education, listening to speakers who shape the world.
+
+Get inspired by fantastic talks and take the opportunity to chat, get excited and to have a great start into the world of web.
+
+Our selected speakers not only know what they're talking about, they also shape the future. See which speakers are already confirmed and check out their talks.
+
+About
+
+Javascript is taking over the world. From web to mobile and from client-side to server-side, you can build almost anything using javascript. This year is the first annual DeveloperWeek: Javascript Conference: a 2-day series of introductory and advanced workshops and industry talks about Javascript.
+
+The JavaScript Conference content is geared to developers with experience in a previous programming language but little to no experience in full-stack JavaScript development. You should bring a laptop.
+
+Talks
+
+Knowledge
+Knowledge is the foundation.
+
+Toolkit
+Toolkit is essential.
+
+Work Ethic
+Work Ethic matters.
+
+Contact
+
+Przemyslaw Jarzynski (PJ)
+Innovation Director
+Cheltenham
+www.pjonline.me
